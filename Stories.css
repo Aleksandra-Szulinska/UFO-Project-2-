@@ -1,0 +1,127 @@
+.news{background-color: rgba(0, 0, 0, 0);} 
+.stories{background-color:rgba(172, 163, 163, 0.785);}
+.yourstory{background-color: rgba(0, 0, 0, 0);} 
+.contactus{background-color: rgba(0, 0, 0, 0);} 
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+
+  .gallery-container {
+    width: 90%;
+    overflow: hidden;
+    margin-left: 4rem;
+  }
+
+  .gallery {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .gallery-item {
+    flex: 0 0 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .gallery-item h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .gallery-item p {
+    margin:15px;
+    font-size: 16px;
+    color: #666;
+  }
+
+ 
+
+  /* Next and previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    outline: none;
+    z-index: 999;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+  .storyimg{
+    width:400px; /* Adjust the size as needed */
+    height: 400px; /* Adjust the size as needed */
+    border-radius: 90%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the entire circle */
+    border: 2px solid #fff;
+}
+.yourstorytext{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(100, 210, 129, 0.859);
+        padding:2rem;
+        width:100%;
+        display: block;
+        margin: auto;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom:0rem;
+}
+
+.link{
+    color: rgb(255, 255, 255);
+}
+.link:hover{
+    color: rgb(0, 0, 0);
+}
+footer{
+  margin-top:1px;
+  }
+  .navspan{
+    position:sticky;
+    top:0px;
+    width:100%;
+    z-index: 998;
+}
+
+@media only screen and (max-width: 600px){
+  .gallery-container {
+    width: 100%;
+    margin-left: 0rem;
+  }
+
+
+  .gallery-item img {
+    max-width: 100%;
+    position: relative;
+    margin-left:-5,9%;
+  }
+
+  .gallery-item p {
+    max-width: 111%;
+  }
+
+
+
+
+
+}

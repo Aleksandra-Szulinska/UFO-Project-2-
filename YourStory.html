@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Home.css"/>
+    <link rel="stylesheet" type="text/css" href="YourStory.css"/>  
+    <script src="YourStory.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://kit.fontawesome.com/436a5dbe56.js" crossorigin="anonymous"></script>
+    <title>UFO PROJECT </title>
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function(event) {
+          var response = grecaptcha.getResponse();
+        
+          if (response.length === 0) {
+            alert("Please complete the CAPTCHA!");
+            event.preventDefault();
+            return false;
+          }
+        
+        });
+        </script>
+</head>
+
+
+<body>
+    
+
+<span class="navspan">
+    <nav><ul>
+         <li class="news"><a href="Home.html">News</a></li>
+         <li class="stories"><a href="Stories.html">Stories</a></li>
+         <li class="yourstory"><a href="YourStory.html">Your Story</a></li>
+         <li class="contactus"><a href="ContactUs.html">Contact Us</a></li>
+    </ul></nav>
+
+    <div class="maintext">
+        Relaible news source, updated everyday. |
+        New information from around the wold. Read and decide for yourself. |
+        Read at personal stories and experiences, share yours too. |
+    </div>
+
+
+    <img class="logo"src="https://webstockreview.net/images/ufo-clipart-file-5.png">
+    
+    
+    <span class="greenufoanduap">
+        <h1>GREEN</h1>
+        <h1>UFO & UAP</h1>
+    
+</span>
+
+    <div class="phonetitle">GREEN UFO & UAP </div>
+
+
+<div class="phonemaintext">
+    Relaible news source, updated everyday. |
+    New information from around the wold. Read and decide for yourself. |
+    Read at personal stories and experiences, share yours too. |
+</div>
+
+<img src="https://i.pinimg.com/originals/87/1e/ea/871eea0b60a2cf61712c074c3e701249.jpg">
+
+
+
+
+
+<form  action="Submit.html" type="post" enctype="multipart/form-data" action='https://register-demo.freecodecamp.org'>
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    
+    
+
+    <label for="message">Your Story:</label>
+    <textarea  id="message" name="message" rows="4"placeholder="Please feel free to give as many details as you want, you might want to include exact date, and time, place (country & town), your feelings, and what you believe you saw."required></textarea>
+
+    <label for="photo">Photo Attachment:</label>
+    <input type="file" id="photo" name="photo">
+    <label class="custom-file-upload" for="photo">Choose File</label>
+
+    <div class="g-recaptcha" data-sitekey="6Le7KZEpAAAAAOmvJI1E-5WQF-DzB8V57y5wXprj"></div>
+  <br>
+
+    <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I agree for my story to be published on the GREEN UFO & UAP website.
+    </label>
+
+    <button id="submit" type="submit">Submit</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+.news{background-color: rgba(0, 0, 0, 0);} 
+.stories{background-color: rgba(0, 0, 0, 0);}
+.yourstory{background-color: rgba(0, 0, 0, 0);} 
+.contactus{background-color:rgba(172, 163, 163, 0.785);} 
+
+.whitespace{display:none;}
+
+img {
+width:30%;
+display: block;
+margin: auto;
+margin:5px;
+border-radius:1rem;
+}
+
+.yourstorytext{
+    background-color: rgba(255, 255, 255, 0.816);
+        padding:1rem;
+        width:60%;
+        display: block;
+        margin: auto;
+        position: absolute;
+        margin-top:-30rem;
+        margin-left:35%;
+        font-size: 20px;
+        text-align: center;
+}
+.contactdiv{
+    background-color: rgba(255, 255, 255, 0.816);
+        padding:1rem;
+        width:60%;
+        display: block;
+        margin: auto;
+        position: absolute;
+        margin-top:-25rem;
+        margin-left:35%;
+        font-size: 20px;
+        text-align: center; 
+        line-height:1.5em;
+
+}
+
+.aboutUsText{
+    background-color: rgba(255, 255, 255, 0.816);
+    padding:1rem;
+    width:60%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    margin-top:-8.5rem;
+    margin-left:35%;
+    font-size: 20px;
+    text-align: center; 
+}
+
+.link{
+    color: rgb(45, 109, 22);
+    }
+footer{
+    margin:5px;
+}
+@media (max-width: 768px) {
+    img {
+        width:100%;
+        margin:5px;
+        }
+    .contactdiv{
+        background-color: rgba(255, 255, 255, 0.816);
+        padding:1rem;
+        width:80%;
+        display: block;
+        margin: auto;
+        position: absolute;
+        margin-top:-15rem;
+        font-size: 13px;
+        text-align: center; 
+        line-height:17px;
+    }
+    .yourstorytext{
+        background-color: rgba(255, 255, 255, 0.816);
+        padding:1rem;
+        width:80%;
+        display: block;
+        margin: auto;
+        position: absolute;
+        margin-top:-20rem;
+        text-align: center;
+        font-size: 13px;
+    }
+    .aboutUsText{
+        background-color: rgba(255, 255, 255, 0.816);
+        padding:1rem;
+        width:100%;
+        font-size: 13px;
+        text-align: center; 
+        display: block;
+        margin: auto;
+        position:relative;
+      
+         
+    }
+}

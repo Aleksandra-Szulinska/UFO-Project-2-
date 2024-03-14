@@ -1,0 +1,139 @@
+.news{background-color: rgba(0, 0, 0, 0);} 
+.stories{background-color: rgba(0, 0, 0, 0);} 
+.yourstory{background-color:rgba(172, 163, 163, 0.785);} 
+.contactus{background-color: rgba(0, 0, 0, 0);} 
+
+img {
+    width:30%;
+    display: block;
+    margin: auto;
+    margin:5px;
+    float: left;
+    border-radius:1rem;
+    }
+    form {
+        width:65%;
+        position:absolute;
+        margin-top:10px;
+        margin-left:25rem;
+        float: right;
+    }
+    label {
+        display: block;
+        margin-bottom: 10px;
+        
+    }
+    input[type="text"],
+    textarea {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 2px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    #email{
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 2px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    input[type="file"] {
+        display: none;
+    }
+    .custom-file-upload {
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+        background-color: rgb(100, 210, 129);
+        color: white;
+        border: none;
+        border-radius: 4px;
+    }
+    #submit{
+        display: inline-block;
+        padding: 7px 12px;
+        cursor: pointer;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        margin-top: 25px;
+
+    }
+
+    .subimitText{
+    padding:5rem;
+    text-align:center;
+    font-size:30px;
+    padding-bottom:10rem;
+    }
+    .subimitText2{
+        padding:2rem;
+        text-align:center;
+        display: flex;
+        font-size:20px;
+        padding-bottom:4.5rem;
+        }
+        
+        .greenufoanduap{ 
+        position:absolute;
+        margin-top: 100%;
+        color:rgb(255, 255, 255);
+        margin-top:-6.4rem;
+        margin-left:-17rem;
+        line-height:30px;
+        font-size:10px; 
+    }
+    .link{
+        color: rgb(45, 109, 22);
+        }
+        footer{
+            position:absolute;
+            margin-top:41.5%;
+            width:100%;
+            line-height:2em;
+            font-size:15px;
+        }
+        
+   
+    @media (max-width: 768px) {
+      img{
+        display:none;
+      }
+      form {
+        font-size:15px;
+        width:90%;
+        margin-top:6px;
+        margin-left:5px;
+        padding-bottom:50px;
+        float:none;
+        background-color: rgba(255, 255, 255, 0.816);
+        margin-bottom: 15px;
+    }
+    footer{
+        position:absolute;
+        margin-top:260%;
+        line-height:2em;
+        font-size:11px;
+    }
+    .subimitText{
+        width: 100%;
+        padding:1rem;
+        text-align:center;
+        font-size:20px;
+        padding-bottom:1rem;
+        }
+        .subimitText2{
+            width: 100%;
+            padding:2rem;
+            text-align:center;
+            display: flex;
+            font-size:20px;
+            padding-bottom:4.5rem;
+            }
+  
+     
+        }

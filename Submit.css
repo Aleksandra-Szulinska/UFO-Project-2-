@@ -1,0 +1,28 @@
+.news{background-color: rgba(0, 0, 0, 0);} 
+.stories{background-color: rgba(0, 0, 0, 0);} 
+.yourstory{background-color:rgba(0, 0, 0, 0);} 
+.contactus{background-color: rgba(0, 0, 0, 0);}
+
+img{
+ opacity: 0.8;
+ width: 100%;
+ z-index:-1;
+}
+.subimitText{
+    width: 100%;
+    padding:1rem;
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0.50);
+    font-size:15px;
+    margin-top:-15rem;
+    }
+    .subimitText2{
+        width: 100%;
+        padding:1rem;
+        text-align:center;
+        background-color: rgba(255, 255, 255, 0.50);
+        display: flex;
+        font-size:15px;
+        position:relative
+        
+        }

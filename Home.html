@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Home.css"/> 
+    <script src="https://kit.fontawesome.com/436a5dbe56.js" crossorigin="anonymous"></script>
+    <title>UFO PROJECT</title>
+    <script>
+        const slider = document.querySelector('.slider');
+        const leftArrow = document.querySelector('.arrow.left');
+        const rightArrow = document.querySelector('.arrow.right');
+        let slideIndex = 0;
+        
+        // Event listeners for arrow clicks
+        leftArrow.addEventListener('click', () => {
+            slideIndex = (slideIndex - 1 + 2) % 2;
+            updateSlider();
+        });
+        rightArrow.addEventListener('click', () => {
+            slideIndex = (slideIndex + 1) % 2;
+            updateSlider();
+        });
+        
+        // Function to update slider position
+        function updateSlider() {
+            slider.style.transform = `translateX(-${slideIndex * 100}%)`;
+        }
+        </script>
+</head>
+
+
+<body>
+
+<span class="navspan">
+    <nav><ul>
+         <li class="news"><a href="Home.html">News</a></li>
+         <li class="stories"><a href="Stories.html">Stories</a></li>
+         <li class="yourstory"><a href="YourStory.html">Your Story</a></li>
+         <li class="contactus"><a href="ContactUs.html">Contact Us</a></li>
+    </ul></nav>
+
+    <div class="maintext">
+        Relaible news source, updated everyday. |
+        New information from around the wold. Read and decide for yourself. |
+        Read at personal stories and experiences, share yours too. |
+    </div>
+
+  
+
+    <img class="logo"src="https://webstockreview.net/images/ufo-clipart-file-5.png">
+    
+    
+    <span class="greenufoanduap">
+        <h1>GREEN</h1>
+        <h1>UFO & UAP</h1>
+    </span>
+
+    <div class="phonetitle">GREEN UFO & UAP </div>
+
+</span>
+<div class="phonemaintext">
+    Relaible news source, updated everyday. |
+    New information from around the wold. Read and decide for yourself. |
+    Read at personal stories and experiences, share yours too. |
+</div>
+
+
+<div class="deviderdiv">
+    <div class="devider">Latest News</div>
+    <div class="devidergreenacent"></div>
+</div>
+<a class="newslink" href="NewsMain.html">
+<div class="mainnewsgallerydiv">
+    <img class="mainnewsimg" src="https://i.guim.co.uk/img/media/65afdd845e6f926dfd479441ff46afedfed90418/0_434_4000_2400/master/4000.jpg?width=620&dpr=2&s=none">
+    <p class="mainnewstitle">Pentagon director reveals footage of unidentified flying object</p>
+    <p class="mainnewsparagrath">The US Senate subcommittee on Armed Services held an unclassified briefing with the Director of AARO, or All-domain Anomaly Research Office, and in it they revealed video of an unidentified flying object.</p>
+    <button class="mainnewsbutton">READ & WATCH</button>
+</div>
+</a>
+
+<br>
+
+<div class="officialgallery">
+    <div class="deviderdiv">
+        <div class="devider2">Official Reportings</div>
+        <div class="devidergreenacent"></div>
+    </div>
+
+    <div class="officialgallerydiv" id="AARO">
+        <img class="officialgalleryimg" src="https://th.bing.com/th/id/R.220f18f46ea7c89d2ec61eef6ea04dca?rik=e9QFAldUAZGVpA&pid=ImgRaw&r=0">
+        <p class="officialgalleryparagrath">The US Senate subcommittee on Armed Services held an unclassified briefing with the Director of AARO, or All-domain Anomaly Research Office, and in it they revealed video of an unidentified flying object.</p>
+        <a href="https://www.aaro.mil/"target="_blank"><button class="officialgallerybutton" id="newslink">Go to the site & REPORT</button></a>
+    </div>
+
+    <div class="officialgallerydiv" id="GOV.UK">
+        <img class="officialgalleryimg" src="https://i0.wp.com/slothmove.com/wp-content/uploads/2022/02/pip-eligibility-apply.png">
+        <p class="officialgalleryparagrath">GOV.UK is the website for the UK government. It’s the best place to find government services and information.UFO Reports 1997 to 2009 in the UK, showing dates and times, location and a brief description of the sighting.</p>
+        <a href="https://www.gov.uk/government/publications/ufo-reports-in-the-uk"target="_blank"><button class="officialgallerybutton" id="newslink" >Go to the site & READ </button></a>
+    </div>
+</div>
+
+
+
+
+<div class="whitespace"></div>
+<br><br><br><br>
+
+<div class="deviderdiv">
+    <div class="devider3">News from the World</div>
+    <div class="devidergreenacent"></div>
+</div>
+
+<div class="newsgallery">
+
+    <a class="newslink"href="News1.html">
+        <div id="news1"class="newsgallerydiv1">
+            <div class="lineabovenews"></div>
+            <div class="countrynews"><p class="countrynewstext">USA</p></div>
+            <img class="newsimg" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/0289/production/_124794600_microsoftteams-image-7.png.webp">
+            <p class="newstitle">UFO reports by US troops skyrocket to over 500 this year</p>
+            <p class="newsparagrath">A new de-classified US government report on UFO sightings by US troops has revealed hundreds of new cases.The US National Intelligence office is now aware of 510 reported sightings.</p> 
+        </div>
+    </a>
+
+    <a class="newslink"href="News2.html">
+    <div id="news2"class="newsgallerydiv1">
+        <div class="lineabovenews"></div>
+        <div class="countrynews"><p class="countrynewstext">England</p></div>
+        <img class="newsimg" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1iXTIE.img?w=768&h=511&m=6&x=149&y=47&s=98&d=98">
+        <p class="newstitle">Aliens exist, but UFO expert says they will probably never meet humans</p>
+        <p class="newsparagrath">Dr Schofield, who teaches Psychology at the University of Derby's School of Psychology, said: "That they don't exist would imply that we are the first intelligent life form out there...</p> 
+    </div>
+    </a>
+
+    <a class="newslink"href="News3.html">
+    <div id="news3"class="newsgallerydiv1">
+        <div class="lineabovenews"></div>
+        <div class="countrynews"><p class="countrynewstext">Mexico</p></div>
+        <img class="newsimg" src="https://static.euronews.com/articles/stories/08/02/34/00/630x354_cmsv2_9ac2273f-8508-50b3-99d2-ea30faf958bd-8023400.jpg">
+        <p class="newstitle">Controversial 'alien' bodies return to Mexico's congress as 'expert' testifies again </p>
+        <p class="newsparagrath">José Jaime Maussan caused a stir in September when he unveiled what he claimed were the 1,000-year-old fossils of "non-human beings" found in Peru.</p>  
+    </div>
+    </a>
+
+    <a class="newslink"href="News4.html">
+    <div id="news4"class="newsgallerydiv1">
+        <div class="lineabovenews"></div>
+        <div class="countrynews"><p class="countrynewstext">Ireland</p></div>
+        <img class="newsimg" src="https://static.euronews.com/articles/stories/03/43/42/24/329x185_cmsv2_bb45c41f-5218-5237-8649-9a6f51cbe032-3434224.jpg">
+        <p class="newstitle">UFO/UAP sightings reported by pilots over Ireland</p>
+        <p class="newsparagrath">A pilot of British Airways flight BA94, flying from Montreal, contacted air traffic control in Shannon last Friday to report seeing an object moving very quickly past the aircraft.</p>    
+    </div>
+    </a>
+
+    <a class="newslink"href="News5.html">
+    <div id="news5"class="newsgallerydiv1">
+        <div class="lineabovenews"></div>
+        <div class="countrynews"><p class="countrynewstext">USA</p></div>
+        <img class="newsimg" src="https://static.euronews.com/articles/stories/05/81/06/72/329x185_cmsv2_22b0f121-f914-5247-b7df-748cadec34ee-5810672.jpg">
+        <p class="newstitle">US intelligence report says 143 UFO incidents remain unexplained</p>
+        <p class="newsparagrath">A highly-anticipated US intelligence report offered few explanations for unidentified aerial phenomena, highlighting 143 incidents that remain unexplained.</p>
+    </div>
+    </a>
+
+    <a class="newslink"href="News6.html">
+    <div id="news6"class="newsgallerydiv1">
+        <div class="lineabovenews"></div>
+        <div class="countrynews"><p class="countrynewstext">USA</p></div>
+        <img class="newsimg" src="https://static.euronews.com/articles/4016722/329x185_nbc-190711-area-51-1996-ac-634p_0bbca62072c249ddddcf7ebfabc4429c.jpg">
+        <p class="newstitle">Call to raid Area 51 military zone draws hordes of alien hunters</p>
+        <p class="newsparagrath">Presumably tongue-in-cheek Facebook post calls on people to "storm" the restricted area, which has captivated generations of conspiracy theorists.</p>
+    </div>
+    </a>
+
+    <a class="newslink"href="News7.html">
+    <div id="news7"class="newsgallerydiv1">
+        <div class="lineabovenews"></div>
+        <div class="countrynews"><p class="countrynewstext">UK</p></div>
+        <img class="newsimg" src="https://i.guim.co.uk/img/media/0cf09b16485798973e254d95117d329f67857a51/0_117_3500_2101/master/3500.jpg?width=620&dpr=2&s=none">
+        <p class="newstitle">Aliens in bedroom: UFO sightings on the rise in Northern Ireland.</p>
+        <p class="newsparagrath">From mysterious discs over Slemish Mountain in County Antrim to strange images spotted on CCTV, unexplained sightings increased in Northern Ireland again last year</p> 
+    </div>
+    </a>
+
+    <a class="newslink"href="News8.html">
+    <div id="news8"class="newsgallerydiv1">
+        <div class="lineabovenews"></div>
+        <div class="countrynews"><p class="countrynewstext">Poland</p></div>
+        <img class="newsimg" src="https://metro.co.uk/wp-content/uploads/2024/01/wizz-air-ufo-2.png?quality=90&strip=all&zoom=1&resize=644%2C361">
+        <p class="newstitle">Wizz Air plane ‘buzzed by hot pink UFO’ on flight to Poland.</p>
+        <p class="newsparagrath">Denisa Tanase, 36, was working on a flight from Luton to Syzmany in Poland when she spotted a stunning view out of the window. She grabbed her phone and took a video.</p>    
+    </div>
+    </a>
+
+    <a class="newslink"href="News9.html">
+    <div id="news9"class="newsgallerydiv1">
+        <div class="lineabovenews"></div>
+        <div class="countrynews"><p class="countrynewstext">China</p></div>
+        <img class="newsimg" src="https://cdn.vox-cdn.com/thumbor/u24Ac0FrJIDfS10BCKuHlIvwhC4=/0x0:6832x4399/1220x813/filters:focal(2870x1654:3962x2746):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70990733/GettyImages_1300995024.0.jpg">
+        <p class="newstitle">If aliens are calling, let it go to voicemail,seriously</p>
+        <p class="newsparagrath">On Wednesday, a story published in China’s state-backed Science and Technology Daily reported that the country’s giant Sky Eye radio telescope had picked up unusual signals from space.</p>  
+    </div>
+    </a>
+</div>
+
+<div class="newsgallery2">
+
+    <a class="newslink"href="News10.html">
+    <div id="news10"class="newsgallerydiv1">
+        <div class="lineabovenews"></div>
+        <div class="countrynews"><p class="countrynewstext">World</p></div>
+        <img class="newsimg" src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1j70kx.img?w=768&h=482&m=6">
+        <p class="newstitle">Surprising connection between UFO sightings and the environment</p>
+        <p class="newsparagrath">Have you ever seen something strange in the sky? Millions have, reporting sightings of unidentified flying objects (UFOs) for decades. But what if the truth behind these reports isn't out there? </p> 
+    </div>
+    </a>
+
+    <a class="newslink"href="News11.html">
+    <div id="news11"class="newsgallerydiv1">
+        <div class="lineabovenews"></div>
+        <div class="countrynews"><p class="countrynewstext">Greece</p></div>
+        <img class="newsimg" src="https://www.keeptalkinggreece.com/wp-content/uploads/2022/07/SpaceXGreece-1290x660.jpg">
+        <p class="newstitle">Mysterious lights in the sky have Greeks wonder about UFOs</p>
+        <p class="newsparagrath">The mysterious lights were seen in Central and northern Greece but also in parts of Israel, Turkey, Boulgaria, Lebanon.</p>
+    </div>
+    </a>
+</div>
+<div class="deviderdivphone">
+    <div class="deviderphone">From NASA</div>
+</div>
+<div class="deviderdiv3">
+    <div class="devider4">From NASA</div>
+    <div class="devidergreenacent"></div>
+</div>
+
+<div class="nasanewsgallery">
+    <a class="newslink" href="NasaNews.html">
+        <div class="nasanewsdiv">
+            <p class="nasanewstitle">UFOs: Five revelations from Nasa's public meeting</p>
+            <p class="nasanewsparagrath">American authorities have examined around 800 mysterious reports of unidentified flying objects collected over decades - but only a small fraction are truly unexplained, a panel of researchers says.</p>
+        </div>
+    </a> 
+    <a class="newslink" href="NasaNews.html">
+        <div class="nasanewsdiv">
+            <p class="nasanewstitle">UFOs: Five revelations from Nasa's public meeting</p>
+            <p class="nasanewsparagrath">American authorities have examined around 800 mysterious reports of unidentified flying objects collected over decades - but only a small fraction are truly unexplained, a panel of researchers says.</p>
+        </div>
+    </a> 
+    <a class="newslink" href="NasaNews.html">
+        <div class="nasanewsdiv">
+            <p class="nasanewstitle">UFOs: Five revelations from Nasa's public meeting</p>
+            <p class="nasanewsparagrath">American authorities have examined around 800 mysterious reports of unidentified flying objects collected over decades - but only a small fraction are truly unexplained, a panel of researchers says.</p>
+        </div>
+    </a> 
+    <a class="newslink" href="NasaNews.html">
+        <div class="nasanewsdiv">
+            <p class="nasanewstitle">UFOs: Five revelations from Nasa's public meeting</p>
+            <p class="nasanewsparagrath">American authorities have examined around 800 mysterious reports of unidentified flying objects collected over decades - but only a small fraction are truly unexplained, a panel of researchers says.</p>
+        </div>
+    </a> 
+    <a class="newslink" href="NasaNews.html">
+        <div class="nasanewsdiv">
+            <p class="nasanewstitle">UFOs: Five revelations from Nasa's public meeting</p>
+            <p class="nasanewsparagrath">American authorities have examined around 800 mysterious reports of unidentified flying objects collected over decades - but only a small fraction are truly unexplained, a panel of researchers says.</p>
+        </div>
+    </a> 
+    <a class="newslink" href="NasaNews.html">
+        <div class="nasanewsdiv">
+            <p class="nasanewstitle">UFOs: Five revelations from Nasa's public meeting</p>
+            <p class="nasanewsparagrath">American authorities have examined around 800 mysterious reports of unidentified flying objects collected over decades - but only a small fraction are truly unexplained, a panel of researchers says.</p>
+        </div>
+    </a>    
+</div>
+
+<div class="deviderdiv">
+    <div class="devider5">TV News</div>
+    <div class="devidergreenacent1">
+</div>
+<div class="deviderdivphone">
+    <div class="deviderphone">TV News</div>
+    <div class="devidergreenacentphone">
+</div>
+<div class="iframe-container">
+<iframe id=TVnewsVideo width="560" height="315" src="https://www.youtube.com/embed/B4607ie710I?si=ZfIDdxtteSPQkhCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
+
+<div class="yourstorytext">You can report your story <a class="link" href="YourStory.html"> here</a></div>
+<footer>
+    <p class="footerspace">Follow us on Social Media!</p>
+        <a class="footerspace" href="https://www.imcreator.com/edit/vbid-f3bb4e9e-i2gg0dr6" target="_blank"><i id="iconfooter"class="fa-brands fa-facebook fa-xl" style="color: #4102ff;"></i></a>
+        <a class="footerspace" href="https://www.imcreator.com/edit/vbid-f3bb4e9e-i2gg0dr6" target="_blank""><i id="iconfooter"class="fa-brands fa-twitter fa-xl" style="color: #3cd2f7;"></i></a>
+        <a class="footerspace" href="https://www.imcreator.com/edit/vbid-f3bb4e9e-i2gg0dr6" target="_blank"><i id="iconfooter"class="fa-brands fa-yahoo fa-xl" style="color: #530564;"></i></a>
+        <a class="footerspace"href="https://www.imcreator.com/edit/vbid-f3bb4e9e-i2gg0dr6" target="_blank"><i id="iconfooter"class="fa-brands fa-instagram fa-xl" style="color: #c65fd3;"></i></a>
+       <p class="footerspace"><i>UK Registered Compampany - 2090879 - Contact +44 07843337099</i></p>
+   <p class="footerspace" class="projectforAS">THIS WEBSITE IS MADE AS A PORTFOLIO PROJECTS FOR A.S.</p>
+</footer>
+
+</body>
+</html>
